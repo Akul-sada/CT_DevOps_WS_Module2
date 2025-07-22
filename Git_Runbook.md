@@ -261,3 +261,7 @@ After merge you will all files available from feature1 branch in main branch too
 `ls -ltr`
 
 ![image](https://user-images.githubusercontent.com/37858762/236855125-fdc7883d-f30c-4339-887f-ff6bfb1953b8.png)
+
+h) To push the code to the github we have to add access token to remote repository
+
+`git remote set-url origin https://your_access_token@github.com/your_github_id/name_of_your_repository`
